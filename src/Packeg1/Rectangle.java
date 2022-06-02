@@ -16,10 +16,10 @@ public class Rectangle extends Figure{
     }
 
 
-    public double getPerimeter() {
+    protected double getPerimeter() {
         return 2*(length+width);
     }
-    public  double getArea() {
+    protected   double getArea() {
         return length*width;
     }
      protected double getPerimeter(double length, double width){

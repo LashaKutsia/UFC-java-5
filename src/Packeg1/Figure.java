@@ -6,10 +6,10 @@ public class Figure {
     }
 
 
-    public double getPerimeter(){
+    protected double getPerimeter(){
         return 1;
     }
-    public double getArea(){
+    protected  double getArea(){
         return -1;
     }
     public static final void sayHello(){
